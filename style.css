@@ -1,0 +1,174 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #6ccce9;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+    font-size: 2em;
+}
+
+header h4 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #5992d4;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+nav ul li a i {
+    margin-right: 8px;
+}
+
+nav ul li a:hover {
+    background-color: #6ccce9;
+    border-radius: 4px;
+    color: #fff;
+}
+
+/* Main Content Styling */
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Section Styling */
+section {
+    background-color: white;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #3f51b5;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+section h2 i {
+    color: #3f51b5;
+    margin-right: 10px;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #6ccce9;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h2 {
+        font-size: 1.8em;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 20px 15px;
+        padding: 20px;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
+}
+
+/* Contact Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 1em;
+    color: white;
+    background-color: #3f51b5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #303f9f;
+}
